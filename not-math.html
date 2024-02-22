@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Not-math - Sergio Maciel</title>
+    <meta property="og:title" content="Not-math - Sergio Maciel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./not-math.css" rel="stylesheet" />
+
+      <div class="not-math-container">
+        <header data-thq="thq-navbar" class="not-math-navbar-interactive">
+          <a href="index.html" class="not-math-heading-title">Sergio Maciel</a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="not-math-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="not-math-nav"
+            >
+              <a href="index.html" class="not-math-home">
+                <span>Home</span>
+                <br />
+              </a>
+              <a href="math.html" class="not-math-math">
+                <span>Math</span>
+                <br />
+              </a>
+              <a
+                href="https://sergiohmaciel.github.io/CV.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="not-math-cv"
+              >
+                <span>CV</span>
+                <br />
+              </a>
+              <a href="links.html" class="not-math-links">
+                <span>Links</span>
+                <br />
+              </a>
+              <a href="teaching.html" class="not-math-teaching">
+                <span>Teaching</span>
+                <br />
+              </a>
+              <a
+                href="not-math.html"
+                class="not-math-random-non-mathematical-stuff"
+              >
+                <span>Not math</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div data-thq="thq-burger-menu" class="not-math-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="not-math-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+	  <div data-thq="thq-mobile-menu" class="not-math-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="not-math-nav1"
+            >
+              <div class="not-math-menu-container1">
+                <div data-thq="thq-close-menu" class="not-math-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="not-math-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="not-math-nav2"
+              >
+                <a href="index.html" class="mobile-menu-text">
+                <span>Home</span>
+                <br />
+              </a>
+              <a href="math.html" class="mobile-menu-text">
+                <span>Math</span>
+                <br />
+              </a>
+              <a
+                href="https://sergiohmaciel.github.io/CV.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="mobile-menu-text"
+              >
+                <span>CV</span>
+                <br />
+              </a>
+              <a href="links.html" class="mobile-menu-text">
+                <span>Links</span>
+                <br />
+              </a>
+              <a href="teaching.html" class="mobile-menu-text">
+                <span>Teaching</span>
+                <br />
+              </a>
+              <a href="not-math.html" class="mobile-menu-text">
+                <span>Not math</span>
+                <br />
+              </a>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <div class="not-math-container1">
+          <div class="not-math-container2">
+            <span class="not-math-text12">
+              <span>Not math</span>
+              <br />
+            </span>
+            <div class="not-math-container3">
+              <span class="not-math-text15">
+                <span>
+                  Below you can find non-mathematical activities I'm engaged in.
+                  This includes hobbies, my personal tastes and other things I'm
+                  interested in.
+                </span>
+                <br />
+              </span>
+            </div>
+            <div class="not-math-container4">
+              <span class="not-math-text18">
+                <span>I like almost any kind of music, but strongly prefer Pop, Grunge and Musical genres. I love Olivia Rodrigo's work, Soundgarden is an amazing band and Wicked is my favourite musical. I'm also into dancing, being specially amazed by ballet.
+		</span>
+                <br />
+              </span>
+            </div>
+            <div class="not-math-container4">
+              <span class="not-math-text18">
+                <span> In my free time I play games regularly, being Don't Starve Together one I do often. I also practice bouldering and watch cartoons. If I would need to choose my favourite cartoon, it probably would be "The Owl House", although "Amphibia" is another one I felt in love with.
+                <br />
+              </span>
+            </div>
+	    <div class="not-math-container4">
+              <span class="not-math-text18">
+                <span>I'm also an AI enthusiast. My interests lies mainly in seeing how things turn out when we ask an AI to solve problems. I occasionaly mess with this kind of stuff just for the fun. One of my long term plans is to let a simple AI here in this website for you to play against, but that will take some time...</span>
+                <br />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+        <footer class="not-math-footer">
+          <svg viewBox="0 0 1024 1024" class="not-math-icon2">
+            <path
+              d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+            ></path>
+          </svg>
+          <span class="not-math-text21">maciel.ser.h@gmail.com</span>
+          <svg viewBox="0 0 1024 1024" class="not-math-icon4">
+            <path
+              d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
+            ></path>
+          </svg>
+          <span class="not-math-text22">São Paulo, Brazil</span>
+        </footer>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

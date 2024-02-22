@@ -1,0 +1,350 @@
+.not-math-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.not-math-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #8f22af;
+}
+.not-math-heading-title {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+.not-math-desktop-menu {
+  display: flex;
+}
+.not-math-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.not-math-home {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.not-math-home:hover {
+  color: #bebebe;
+}
+.not-math-home:active {
+  color: #bebebe;
+}
+.not-math-math {
+  color: #ffffff;
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+}
+.not-math-math:hover {
+  color: #bebebe;
+}
+.not-math-math:active {
+  color: #bebebe;
+}
+.not-math-cv {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.not-math-cv:hover {
+  color: #bebebe;
+}
+.not-math-links {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.not-math-links:hover {
+  color: #bebebe;
+}
+.not-math-links:active {
+  color: #bebebe;
+}
+.not-math-teaching {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.not-math-teaching:hover {
+  color: #bebebe;
+}
+.not-math-teaching:active {
+  color: #bebebe;
+}
+.not-math-random-non-mathematical-stuff {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.not-math-random-non-mathematical-stuff:hover {
+  color: #bebebe;
+}
+.not-math-random-non-mathematical-stuff:active {
+  color: #bebebe;
+}
+.not-math-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.not-math-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.not-math-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.not-math-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  background-color: #D9D9D9;
+}
+.not-math-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.not-math-menu-container1 {
+  width: 100%;
+  height: 100%
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.not-math-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.not-math-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.not-math-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mobile-menu-text {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.not-math-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  background-color: #D9D9D9;
+}
+.not-math-container2 {
+  width: 80%;
+  height: 895px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.not-math-text12 {
+  width: 100%;
+  height: 200px;
+  font-size: 80px;
+  align-self: center;
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgba(217, 217, 217, 0.25);
+}
+.not-math-container3 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.not-math-text15 {
+  width: 80%;
+  padding: 20px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: 0px;
+  text-align: justify;
+  font-family: Source Sans Pro;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(248, 248, 248);
+}
+.not-math-container4 {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.not-math-text18 {
+  width: 80%;
+  padding: 20px;
+  font-size: 25px;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-family: Source Sans Pro;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(248, 248, 248);
+}
+.not-math-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  background-color: #8f22af;
+}
+.not-math-icon2 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.not-math-text21 {
+  color: rgb(255, 255, 255);
+}
+.not-math-icon4 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+.not-math-text22 {
+  color: rgb(255, 255, 255);
+}
+@media(max-width: 767px) {
+  .not-math-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .not-math-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .not-math-text21 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .not-math-text22 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .not-math-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .not-math-desktop-menu {
+    display: none;
+  }
+  .not-math-burger-menu {
+    display: flex;
+  }
+  .not-math-container2 {
+    width: 100%;
+  }
+  .not-math-container3 {
+    width: 95%;
+  }
+  .not-math-container4 {
+    width: 95%;
+  }
+  .not-math-text15 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .not-math-text18 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .not-math-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .not-math-text21 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .not-math-text22 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

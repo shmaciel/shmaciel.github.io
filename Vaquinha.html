@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vaquinha - Sergio Maciel</title>
+    <meta property="og:title" content="Vaquinha - Sergio Maciel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./Vaquinha.css" rel="stylesheet" />
+
+      <div class="links-container">
+        <header data-thq="thq-navbar" class="links-navbar-interactive">
+          <a href="index.html" class="links-heading-title">Sergio Maciel</a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="links-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="links-nav"
+            >
+              <a href="index.html" class="links-home">
+                <span>Início</span>
+                <br />
+              </a>
+              <a href="math.html" class="links-math">
+                <span>Matemática</span>
+                <br />
+              </a>
+              <a
+                href="https://sergiohmaciel.github.io/CV.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="links-cv"
+              >
+                <span>CV</span>
+                <br />
+              </a>
+              <a href="links.html" class="links-links">
+                <span>Links</span>
+                <br />
+              </a>
+              <a href="teaching.html" class="links-teaching">
+                <span>Didática</span>
+                <br />
+              </a>
+              <a
+                href="not-math.html"
+                class="links-random-non-mathematical-stuff"
+              >
+                <span>Não matemática</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div data-thq="thq-burger-menu" class="links-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="links-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+	  <div data-thq="thq-mobile-menu" class="links-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="links-nav1"
+            >
+              <div class="links-menu-container1">
+                <div data-thq="thq-close-menu" class="links-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="links-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="links-nav2"
+              >
+                <a href="index.html" class="mobile-menu-text">
+                <span>Início</span>
+                <br />
+              </a>
+              <a href="math.html" class="mobile-menu-text">
+                <span>Matemática</span>
+                <br />
+              </a>
+              <a
+                href="https://sergiohmaciel.github.io/CV.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="mobile-menu-text"
+              >
+                <span>CV</span>
+                <br />
+              </a>
+              <a href="links.html" class="mobile-menu-text">
+                <span>Links</span>
+                <br />
+              </a>
+              <a href="teaching.html" class="mobile-menu-text">
+                <span>Didática</span>
+                <br />
+              </a>
+              <a href="not-math.html" class="mobile-menu-text">
+                <span>Não matemática</span>
+                <br />
+              </a>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <div class="links-container1">
+          <div class="links-container2">
+            <div class="pic-container">
+              <img
+                src="public/playground_assets/Pic1.jpg"
+                alt="eu"
+                class="pic1"
+              />
+              <img
+                src="public/playground_assets/Pic2.jpg"
+                alt="eu de novo"
+                class="pic2"
+              />
+            </div>
+
+	    <div class="links-text15">
+              <span>
+                Eu gostaria de agradecer cada uma das pessoas incríveis que ajudaram com a vaquinha. É graças a vocês que eu estou podendo aproveitar essa oportunidade maravilhosa que surgiu. Cada um de vocês, independente do tamanho da ajuda, teve um papel importantíssimo ao realizar esse sonho. Eu sou imensamente grato a cada pessoínha que contribuiu com essa campanha. Essa experiência essa sendo incrível e de grande aprendizado para mim. Aqui vai uma foto minha em frente ao instituto de matemática.
+              </span>
+
+              <img
+                src="public/playground_assets/Pic3.jpg"
+                alt="eu mais uma vez"
+                class="pic3"
+              />
+
+              <span>
+                Se você ainda quiser contribuir com alguma coisa para ajudar com custos de vida, fique a vontade.
+              </span>
+            </div>
+
+            <div class="links-text15">
+              <span>
+                Me chamo Sérgio Maciel e atualmente estou cursando <b>Bacharelado em Matemática na Universidade de São Paulo (USP)</b>. Devido ao meu desempenho em atividades acadêmicas, eu fui aprovado em um programa de intercâmbio para a <b>Australian National University (ANU)</b>, a maior universidade da Austrália. Nesse programa, eu tenho a oportunidade de passar um semestre estudando na ANU. É uma chance única que vai me proporcionar um crescimento enorme na carreira e melhores oportunidades.
+              </span>
+            </div>
+            <div class="links-text15">
+              <span>
+                Porém, ao contrário de como é no Brasil, universidades públicas no exterior não costumam ser gratuitas. E não é diferente na Austrália. Assim, eu precisaria pagar a "mensalidade" da universidade, chamada de <b>tuition fee</b>, que tem um valor de <b>A$13.214</b> dólares australianos. Isso corresponde a cerca de R$45.000. Porém, diferente das mensalidades das universidades privadas brasileiras, esse valor cobre o semestre inteiro</b>.
+              </span>
+            </div>
+            <div class="links-text15">
+              <span>
+                Eu não tinha condições de arcar com esse custo sozinho e por isso pedi ajuda para poder aproveitar essa chance única de fazer meu intercâmbio.
+              </span>
+            </div>
+	    <div class="status-container">
+	      <h1 class="goal-title">
+		Tuition Fee
+	      </h1>
+	      <div class="sub-status-container">
+	        <div class="toleft">
+  	          <div class="progressbarTuition">
+	            <div></div>
+	          </div>
+	        </div>
+	        <div class="toright">
+	  	  <p class="values"> 26%&#160;&#160; R$11.711,87/R$45.000</p>
+	        </div>
+	      </div>
+	      <p class="values2"> A Tuition foi paga e a contagem terminou </p>
+	      <h2 class="como-ajudar"> <b>Como ajudar?</b></h2>
+	      <div>
+	        <span class="help-text"> Você pode contribuir por pix (chave e QR code a seguir) ou transferência com os dados ao lado.</span>
+	        <span class="pix"> Chave pix celular: 48984804704 <br> </br> Nome: Sergio Henrique Maciel <br> </br> Banco: 001 - Banco do Brasil <br></br> Agência: 540-1 <br></br> CC: 42341-6</span>
+	      </div>
+   	      <div class="QR-container">
+                <img
+                  src="public/playground_assets/QR.png"
+                  alt="QR code"
+                  class="QR">
+	        </>
+	      </div>            
+	    </div>
+  	    <p class="little-title"><b>Por que Austrália?</b></p>
+	    <div class="links-text15">
+	      <span>
+                De todos os lugares no mundo, por que eu escolhi a Austrália? O motivo é o seguinte: a principal área da matemática que eu trabalho é chamada de <i>topologia algébrica</i>, você pode saber mais no final da página, onde eu falo exclusivamente do que eu faço.
+	      </span>
+            </div>
+	    <div class="links-text15">
+	      <span>
+                Muito relacionada com topologia algébrica, está a <i>teoria de categorias</i>. Teoria de categorias é uma linguagem muito versátil da matemática que traz diversas ferramentas, das quais topologia algébrica faz uso extensivo. Topologia algébrica e categorias são tão próximas que algumas vezes são indistinguíveis.
+	      </span>
+            </div>
+	    <div class="links-text15">
+	      <span>
+                A Austrália tem um dos maiores centros em teoria de categorias no mundo, com pesquisadores líderes no assunto. A razão de ter escolhido aplicar para a Austrália é justamente por conta dessa atmosfera na qual teoria de categorias floresce. É a chance de estar aprendendo e desenvolvendo atividades com as maiores autoridades na área, o que certamente vai me tornar um pesquisador muito melhor.
+	      </span>
+            </div>
+  	    <p class="little-title"><b>Qual o destino do dinheiro juntado com a vaquinha?</b></p>
+	    <div class="links-text15">
+	      <span>
+                O dinheiro foi usado para ajudar a pagar a <i>tuition fee</i> (tipo a mensalidade da universidade). Graças a todo mundo que ajudou, os custos aliviados tornaram possível essa experiência. A vaquinha para a tuition em si já terminou e qualquer contribuição que vier agora vai ser destinada a sobreviver na Austrália.
+	      </span>
+            </div>
+  	    <p class="little-title"><b>Um pouco de quem sou eu e o que faço</b></p>
+	    <div class="links-text15">
+	      <span>
+                Eu estudo bacharelado em matemática na Universidade de São Paulo (USP), estou no terceiro ano da graduação e dentro da matemática, eu trabalho em uma área chamada topologia algébrica.
+	      </span>
+            </div>
+	    <div class="links-text15">
+	      <span>
+                <b>Topologia</b> é o estudo de diferentes tipos de espaços, que são conjuntos em que você sabe quais elementos estão "próximos" uns dos outros. Existem diversos tipos de espaço, alguns mais intuitivos e outros nem tanto.
+	      </span>
+            </div>
+	    <div class="links-text15">
+	      <span>
+                Por exemplo, o plano cartesiano é um espaço bem conhecido. O círculo é outro. Uma esfera também, um toro (formato de rosquinha) é mais um espaço familiar. Mas existem outros, tão estranhos quanto você queira.
+	      </span>
+            </div>
+	    <div class="links-text15">
+	      <span>
+                <b>Topologia algébrica</b> é uma forma de estudar topologia usando ferramentas da álgebra. Por exemplo, podemos associar <i>números</i> a diferentes formas de jogar um espaço dentro do outro. Ou podemos etiquetar os espaços com conjuntos especiais, conjuntos em que dê pra <i>fazer álgebra</i> neles. Com essas ferramentas, podemos descobrir muitas coisas sobre os espaços que estamos interessados. Por exemplo, você sabia que em <b>todo instante</b> existem <i>dois pontos</i> em lados <i>perfeitamente opostos</i> da Terra que têm a <i>mesma temperatura e mesma pressão</i> atmosférica? Essa é uma das coisas que podemos provar usando topologia algébrica.
+	      </span>
+            </div>
+	    <div class="links-text15">
+	      <span>
+                Meu sonho é tornar-se um grande pesquisador e contribuir para o conhecimento matemático global de forma significativa. Para ser um dos melhores, eu preciso estar em contato com os melhores. Por isso esse intercâmbio é tão importante: não só vai me permitir entrar nessa rede, mas também vai ser um peso enorme para ser aprovado em um mestrado e doutorado nos melhores lugares do mundo. Você pode ler um pouco mais sobre meu trajeto e conquistas <a href="trajeto.html"> <b>aqui</b> </a> e navegar pelo site para explorar um pouco do que eu faço (site está em inglês, pois é meu site acadêmico, às vezes o navegador traduz).
+	      </span>
+            </div>
+	  </div>
+       </div>
+       <footer class="links-footer">
+         <svg viewBox="0 0 1024 1024" class="links-icon2">
+           <path
+             d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+           ></path>
+         </svg>
+         <span class="links-text25">maciel.ser.h@gmail.com</span>
+         <svg viewBox="0 0 1024 1024" class="links-icon4">
+           <path
+             d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
+           ></path>
+         </svg>
+         <span class="links-text26">São Paulo, Brazil</span>
+       </footer>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

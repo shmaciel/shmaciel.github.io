@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Math - Sergio Maciel</title>
+    <meta property="og:title" content="Math - Sergio Maciel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./math.css" rel="stylesheet" />
+
+      <div class="math-container">
+        <header data-thq="thq-navbar" class="math-navbar-interactive">
+          <a href="index.html" class="math-heading-title">Sergio Maciel</a>
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="math-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="math-nav"
+            >
+              <a href="index.html" class="math-home">
+                <span>Home</span>
+                <br />
+              </a>
+              <a href="math.html" class="math-math">
+                <span>Math</span>
+                <br />
+              </a>
+              <a
+                href="https://sergiohmaciel.github.io/CV.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="math-cv"
+              >
+                <span>CV</span>
+                <br />
+              </a>
+              <a href="links.html" class="math-links">
+                <span>Links</span>
+                <br />
+              </a>
+              <a href="teaching.html" class="math-teaching">
+                <span>Teaching</span>
+                <br />
+              </a>
+              <a href="not-math.html" class="math-not-math">
+                <span>Not math</span>
+                <br />
+              </a>
+            </nav>
+          </div>
+          <div data-thq="thq-burger-menu" class="math-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="math-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="math-mobile-menu">
+            <div
+              data-thq="thq-mobile-menu-nav"
+              data-role="Nav"
+              class="math-nav1"
+            >
+              <div class="math-menu-container1">
+                <div data-thq="thq-close-menu" class="math-menu-close">
+                  <svg viewBox="0 0 1024 1024" class="math-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                data-thq="thq-mobile-menu-nav-links"
+                data-role="Nav"
+                class="math-nav2"
+              >
+                <a href="index.html" class="mobile-menu-text">
+                <span>Home</span>
+                <br />
+              </a>
+              <a href="math.html" class="mobile-menu-text">
+                <span>Math</span>
+                <br />
+              </a>
+              <a
+                href="https://sergiohmaciel.github.io/CV.pdf"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="mobile-menu-text"
+              >
+                <span>CV</span>
+                <br />
+              </a>
+              <a href="links.html" class="mobile-menu-text">
+                <span>Links</span>
+                <br />
+              </a>
+              <a href="teaching.html" class="mobile-menu-text">
+                <span>Teaching</span>
+                <br />
+              </a>
+              <a href="not-math.html" class="mobile-menu-text">
+                <span>Not math</span>
+                <br />
+              </a>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <div class="math-container1">
+          <div class="math-container2">
+            <span class="math-text12">
+              <span>Math</span>
+              <br />
+            </span>
+            <span class="math-text15">
+              <span>
+                Here you can find things concerning my last mathematical
+                activities, including the material used in some of my talks and texts I wrote.
+              </span>
+              <br />
+            </span>
+            <h1 class="math-text18">Talks</h1>
+            <div class="math-container3">
+              <span class="math-text19">
+                <span>Hilbert's third problem and Dehn invariants</span>
+                <br />
+              </span>
+              <li class="math-li list-item">
+                <span class="math-text22">
+                  X Biennal of mathematics of the Brazilian Mathematical Society
+                </span>
+              </li>
+              <li class="math-li1 list-item">
+                <a
+                  href="https://sergiohmaciel.github.io/slides/Hilbert_slides.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link"
+                >
+                  Slides can be found here
+                </a>
+              </li>
+            </div>
+
+            <h1 class="math-text27">Writing</h1>
+	    <div class="math-container6">
+              <span class="math-text32">
+                <span>A quick note on cohomology of (quasi)coherent sheaves and Serre's criterion for affiness</span>
+                <br />
+              </span>
+              <li class="math-li6 list-item">
+                <a
+                  href="https://sergiohmaciel.github.io/articles/Serres_Affiness_Criterion.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link3"
+                >
+                  Avaiable here
+                </a>
+              </li>
+	      <li class="math-li4 list-item">
+                <span class="math-text31">
+                  A project from the <a
+                  href="https://sites.google.com/view/twoples/home"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link3"
+                > twoples </a> program
+                </span>
+              </li>
+            </div>
+	    <div class="math-container6">
+              <span class="math-text32">
+                <span>The stable and unstable homotopy theory of spectra</span>
+                <br />
+              </span>
+              <li class="math-li6 list-item">
+                <a
+                  href="https://sergiohmaciel.github.io/articles/model_structures_for_spectra.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link3"
+                >
+                  Avaiable here
+                </a>
+              </li>
+            </div>
+	    <div class="math-container6">
+              <span class="math-text32">
+                <span>Ellipitic cohomology, genera and the index of Dirac operators in loop spaces</span>
+                <br />
+              </span>
+              <li class="math-li6 list-item">
+                <a
+                  href="https://sergiohmaciel.github.io/articles/Elliptic_cohomology_and_loop_spaces.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link3"
+                >
+                  Avaiable here
+                </a>
+              </li>
+            </div>
+            <div class="math-container5">
+              <span class="math-text28">
+                <span>
+                  The underlying infinity category of a model category
+                </span>
+                <br />
+              </span>
+              <li class="math-li4 list-item">
+                <span class="math-text31">
+                  A project from the <a
+                  href="https://sites.google.com/view/twoples/home"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link3"
+                > twoples </a> program
+                </span>
+              </li>
+              <li class="math-li5 list-item">
+                <a
+                  href="https://sergiohmaciel.github.io/articles/inf_cat_of_a_model_cat.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link2"
+                >
+                  Avaiable here
+                </a>
+              </li>
+            </div>
+            <div class="math-container6">
+              <span class="math-text32">
+                <span>A crash introduction to the Conley Index</span>
+                <br />
+              </span>
+              <li class="math-li6 list-item">
+                <a
+                  href="https://sergiohmaciel.github.io/articles/Conley_index.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link3"
+                >
+                  Avaiable here
+                </a>
+              </li>
+            </div>
+	    <div class="math-container6">
+              <span class="math-text32">
+                <span>Hilbert's third problem and Dehn invariants</span>
+                <br />
+              </span>
+
+	      <li class="math-li list-item">
+                <span class="math-text22">
+                  Annals of the X Biennal of mathematics of the Brazilian Mathematical Society
+                </span>
+              </li>
+	      <li class="math-li list-item">
+                <span class="math-text22">
+                  In portuguese
+                </span>
+              </li>
+              <li class="math-li6 list-item">
+                <a
+                  href="https://sergiohmaciel.github.io/articles/Dehn_Bienal.pdf"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="math-link3"
+                >
+                  Avaiable here
+                </a>
+              </li>
+            </div>
+
+          </div>
+        </div>
+        <footer class="math-footer">
+          <svg viewBox="0 0 1024 1024" class="math-icon2">
+            <path
+              d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+            ></path>
+          </svg>
+          <span class="math-text35">maciel.ser.h@gmail.com</span>
+          <svg viewBox="0 0 1024 1024" class="math-icon4">
+            <path
+              d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
+            ></path>
+          </svg>
+          <span class="math-text36">São Paulo, Brazil</span>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

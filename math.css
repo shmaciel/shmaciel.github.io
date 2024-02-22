@@ -1,0 +1,506 @@
+.math-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.math-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #8f22af;
+}
+.math-heading-title {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+.math-desktop-menu {
+  display: flex;
+}
+.math-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.math-home {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.math-home:hover {
+  color: #bebebe;
+}
+.math-home:active {
+  color: #bebebe;
+}
+.math-math {
+  color: #ffffff;
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+}
+.math-math:hover {
+  color: #bebebe;
+}
+.math-math:active {
+  color: #bebebe;
+}
+.math-cv {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.math-cv:hover {
+  color: #bebebe;
+}
+.math-links {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.math-links:hover {
+  color: #bebebe;
+}
+.math-links:active {
+  color: #bebebe;
+}
+.math-teaching {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.math-teaching:hover {
+  color: #bebebe;
+}
+.math-teaching:active {
+  color: #bebebe;
+}
+.math-not-math {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.math-not-math:hover {
+  color: #bebebe;
+}
+.math-not-math:active {
+  color: #bebebe;
+}
+.math-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.math-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.math-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.math-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  background-color: #D9D9D9;
+}
+.math-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.math-menu-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.math-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.math-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.math-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mobile-menu-text {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.math-container2 {
+  width: 80%;
+  height: 1900px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.math-text12 {
+  width: 100%;
+  height: 200px;
+  font-size: 80px;
+  align-self: center;
+  text-align: center;
+  padding-top: 45px;
+  background-color: rgba(217, 217, 217, 0.25);
+}
+.math-text15 {
+  width: 80%;
+  font-size: 25px;
+  align-self: center;
+  margin-top: 20px;
+  text-align: justify;
+  font-family: Source Sans Pro;
+  padding-top: 20px;
+  margin-right: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  background-color: #f8f8f8;
+}
+.math-text18 {
+  color: rgb(143, 34, 175);
+  align-self: flex-start;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 15%;
+}
+.math-container3 {
+  flex: 0 0 auto;
+  width: 80%;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  align-items: flex-start;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-color: #f8f8f8;
+}
+.math-text19 {
+  width: 90%;
+  font-size: 30px;
+  align-self: center;
+  text-align: justify;
+  font-family: Source Sans Pro;
+  line-height: 1.5;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+.math-li {
+  align-self: flex-start;
+  margin-left: 70px;
+  margin-right: 10px;
+}
+.math-text22 {
+  font-size: 25px;
+  font-family: Source Sans Pro;
+}
+.math-li1 {
+  align-self: flex-start;
+  margin-left: 70px;
+}
+.math-link {
+  font-size: 25px;
+  font-family: Source Sans Pro;
+}
+.math-container4 {
+  flex: 0 0 auto;
+  width: 80%;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  align-items: flex-start;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-color: #f8f8f8;
+}
+.math-text23 {
+  width: 90%;
+  font-size: 30px;
+  align-self: center;
+  text-align: justify;
+  font-family: Source Sans Pro;
+  line-height: 1.5;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+.math-li2 {
+  align-self: flex-start;
+  margin-left: 70px;
+  margin-right: 10px;
+}
+.math-text26 {
+  font-size: 25px;
+  font-family: Source Sans Pro;
+}
+.math-li3 {
+  align-self: flex-start;
+  margin-left: 70px;
+}
+.math-link1 {
+  font-size: 25px;
+  font-family: Source Sans Pro;
+}
+.math-text27 {
+  color: rgb(143, 34, 175);
+  align-self: flex-start;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 15%;
+}
+.math-container5 {
+  flex: 0 0 auto;
+  width: 80%;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  align-items: flex-start;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-color: #f8f8f8;
+}
+.math-text28 {
+  width: 90%;
+  font-size: 30px;
+  align-self: center;
+  text-align: justify;
+  font-family: Source Sans Pro;
+  line-height: 1.5;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+.math-li4 {
+  align-self: flex-start;
+  margin-left: 70px;
+  margin-right: 10px;
+}
+.math-text31 {
+  font-size: 25px;
+  font-family: Source Sans Pro;
+}
+.math-li5 {
+  align-self: flex-start;
+  margin-left: 70px;
+}
+.math-link2 {
+  font-size: 25px;
+  font-family: Source Sans Pro;
+}
+.math-container6 {
+  flex: 0 0 auto;
+  width: 80%;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  align-items: flex-start;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-color: #f8f8f8;
+}
+.math-text32 {
+  width: 90%;
+  font-size: 30px;
+  align-self: center;
+  text-align: justify;
+  font-family: Source Sans Pro;
+  line-height: 1.5;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+.math-li6 {
+  align-self: flex-start;
+  margin-left: 70px;
+}
+.math-link3 {
+  font-size: 25px;
+  font-family: Source Sans Pro;
+}
+.math-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  background-color: #8f22af;
+}
+.math-icon2 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.math-text35 {
+  color: rgb(255, 255, 255);
+}
+.math-icon4 {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+.math-text36 {
+  color: rgb(255, 255, 255);
+}
+@media(max-width: 767px) {
+  .math-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .math-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .math-text35 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .math-text36 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .math-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .math-desktop-menu {
+    display: none;
+  }
+  .math-burger-menu {
+    display: flex;
+  }
+  .math-container2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+  }
+  .math-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .math-text15 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-text19 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-container3 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-container5 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-container6 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-text22 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-text28 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-text31 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-text32 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-text22 {
+    width: 95%;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-text35 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .math-text36 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
